@@ -30,7 +30,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <details>
     <summary> <b>🔗 Deploy Poci Userbot</b></summary><br/>
 
-<p align="center"><a href="https://github.com/poocong/PociUserbot/tree/master"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/poocong/PociUserbot/tree/master"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
 <p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=cG9vY29uZy9Qb2NpVXNlcmJvdCBtYXN0ZXI"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Bot%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
