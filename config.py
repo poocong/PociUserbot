@@ -5,6 +5,8 @@ load_dotenv()
 
 API_HASH = os.getenv("API_HASH")
 API_ID = int(os.getenv("API_ID"))
+CHANNEL = os.getenv("CHANNEL", "pocongonlen")
+GROUP = os.getenv("GROUP", "PocongUserbot")
 MONGO_URI = os.getenv("MONGO_URI")
 SESSION = os.getenv("SESSION")
 PREFIX = os.getenv("PREFIX", ".")
