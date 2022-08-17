@@ -26,7 +26,7 @@ print(
 try:
     if not str(LOG_CHAT).startswith("-100"):
         tai = app.create_supergroup("Logs", "Powered by : @PocongProject\nSupport : @Poconguserbot")
-        app.set_chat_photo(tai.id, photo="Prime/sampah/prime.png")
+        app.set_chat_photo(tai.id, photo="Poci/sampah/prime.png")
         Heroku = heroku3.from_key(HEROKU_API)
         her = Heroku.app(HEROKU_APP_NAME)
         heroku_var = her.config()
@@ -35,7 +35,7 @@ try:
         print("LOG_CHAT, Sudah benar")
     app.send_message(
         LOG_CHAT,
-        f"🔥 **PociUserbot Berhasil Di Aktifkan** 🔥\n┌ •**Owner** : [{me.first_name}](tg://user?id={me.id})\n├ •**Pyrogram Version :** `{pyver}`\n├ •**BotVersion  :** `0.0.1`\n├ •**Support By :** @Poconguserbot\n└ •**channel :** @pocongproject\n\n**Gunakan** `{PREFIX}ping` **untuk cek bot aktif**"
+        f"🔥 **PociUserbot Berhasil Di Aktifkan** 🔥\n┌ •**Owner** : [{me.first_name}](tg://user?id={me.id})\n├ •**Pyrogram Version :** `{pyver}`\n├ •**BotVersion  :** `0.0.1`\n├ •**Support By :** @Poconguserbot\n└ •**Channel :** @pocongproject\n\n**Gunakan** `{PREFIX}ping` **untuk cek bot aktif**"
     )
     app.join_chat("PrimeSupportGroup")
     app.join_chat("Poconguserbot")
