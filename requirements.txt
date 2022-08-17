@@ -1,4 +1,4 @@
-pyrogram==2.0.35
+pyrogram==2.0.38
 tgcrypto
 aiohttp==3.8.1
 aiofiles
