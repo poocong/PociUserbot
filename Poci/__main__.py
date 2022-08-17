@@ -35,7 +35,7 @@ try:
         print("LOG_CHAT, Sudah benar")
     app.send_message(
         LOG_CHAT,
-        f"🔥 **PociUserbot Berhasil Di Aktifkan** 🔥\n┌ •**Owner** : [{me.first_name}](tg://user?id={me.id})\n├ •**Pyrogram Version :** `{pyver}`\n├ •**BotVersion  :** `0.0.1`\n├ •**Support By :** @Poconguserbot\n└ •**Channel :** @pocongproject\n\n**Gunakan** `{PREFIX}ping` **untuk cek bot aktif**"
+        f"🔥 **PociUserbot Berhasil Di Aktifkan** 🔥\n┌ •**Owner** : [{me.first_name}](tg://user?id={me.id})\n├ •**Pyrogram Version :** `{pyver}`\n├ •**BotVersion  :** `0.1.0`\n├ •**Support By :** @Poconguserbot\n└ •**Channel :** @pocongproject\n\n**Gunakan** `{PREFIX}ping` **untuk cek bot aktif**"
     )
     app.join_chat("PrimeSupportGroup")
     app.join_chat("Poconguserbot")
