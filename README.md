@@ -1,6 +1,5 @@
 ![ANYA-CHAN](https://telegra.ph/file/797ca7b6ec45871ad059d.jpg)
 
-#PociUserbot
 
 Userbot ini di buat berdasarkan library [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -23,7 +22,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <details>
     <summary> <b>🔗 Generate String Session</b></summary><br/>
 
-<p align="center"><a href="https://t.me/Stringpocongbot"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
+<p align="center"><a href="https://telegram.dog/stringpocongbot?start"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
 
 </details>
 
@@ -50,7 +49,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 - [Pyrogram](https://github.com/pyrogram/pyrogram) - base
 - [Toni](https://github.com/Toni880) - Prime
 - [Atka](https://github.com/jokokendi) - Ice-Userbot
-- [KYY](https://github.com/poocong) - PocongUserbot
+- [Poocong](https://github.com/poocong) - PocongUserbot
 - [ZectUserBot](https://github.com/SHRE-YANSH)
 - [TeamYukki](https://github.com/TeamYukki/YukkiMusicBot) - YukkiMusicBot
 - [TheHamkerCat](https://github.com/TheHamkerCat/WilliamButcherBot) - WilliamButcherBot
@@ -60,5 +59,5 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 </details>
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/poocong/PociUserbot/blob/PociUserbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/poocong/PociUserbot/blob/PociUserbot/LICENSE) - Version 1.d, July 2022
 
