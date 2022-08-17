@@ -21,11 +21,11 @@ app.start()
 me = app.get_me()
 
 print(
-    f"Poci UserBot started for user {me.first_name}. Type {PREFIX}help in any telegram chat."
+    f"PociUserbot berhasil diaktifkan {me.first_name}. ketik {PREFIX}help untuk melihat perintah bot."
 )
 try:
     if not str(LOG_CHAT).startswith("-100"):
-        tai = app.create_supergroup("Logs", "Powered by : @PocongProject\nSupport : @Poconguserbot")
+        tai = app.create_supergroup("Logs", "Powered by : @Pocongproject\nSupport : @Poconguserbot")
         app.set_chat_photo(tai.id, photo="Poci/sampah/prime.png")
         Heroku = heroku3.from_key(HEROKU_API)
         her = Heroku.app(HEROKU_APP_NAME)
@@ -35,7 +35,7 @@ try:
         print("LOG_CHAT, Sudah benar")
     app.send_message(
         LOG_CHAT,
-        f"🔥 **PociUserbot Berhasil Di Aktifkan** 🔥\n┌ •**Owner** : [{me.first_name}](tg://user?id={me.id})\n├ •**Pyrogram Version :** `{pyver}`\n├ •**BotVersion  :** `0.1.0`\n├ •**Support By :** @Poconguserbot\n└ •**Channel :** @pocongproject\n\n**Gunakan** `{PREFIX}ping` **untuk cek bot aktif**"
+        f"🤖 **PociUserbot Berhasil Di Aktifkan** \n┌ •**Owner** : [{me.first_name}](tg://user?id={me.id})\n├ •**Channel** : @pocongproject\n├ •**Grup Chat** : @Poconguserbot\n├ •**Bot Version**  : 0.1.0\n└ •**Pyrogram Version :** `{pyver}`\n\n ketik `{PREFIX}alive` **untuk mengecek bot aktif**"
     )
     app.join_chat("PrimeSupportGroup")
     app.join_chat("Poconguserbot")
