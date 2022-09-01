@@ -27,6 +27,11 @@
     "HEROKU_APP_NAME": {
       "description": "Masukan Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
       "required": false
+    },
+    "CMD_HANDLER": {
+      "description": "Atur cmd handler mu atau prefix [ . , * $ & ]",
+      "value": ".",
+      "required": false
     }
   },
   "addons": [
