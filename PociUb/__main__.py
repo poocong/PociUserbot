@@ -17,8 +17,8 @@ from PociUb.helpers.misc import create_botlog, heroku
 MSG_ON = """
 🔥 **PociUserbot Berhasil Di Aktifkan**
 
-┌  **Userbot Version -** `{}`
-└ **Ketik** `{}alive` **untuk Mengecheck Bot**
+┌•**Userbot Version -** `{}`
+└•**Ketik** `{}alive` **untuk Mengecheck Bot**
 """
 
 
@@ -51,5 +51,6 @@ async def main():
 if __name__ == "__main__":
     LOGGER("PociUb").info("Starting PociUserBot")
     install()
+    git()
     heroku()
     LOOP.run_until_complete(main())
