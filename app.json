@@ -1,42 +1,39 @@
 {
   "name": "PociUserbot",
-  "description": "PociUserbot, a telegram userbot with MongoDB database",
+  "description": "[PociUserbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
-      "description": "Get this value from my.telegram.org.",
+      "description": "Dapatkan API ID di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org.",
+      "description": "Dapatkan API Hash di web my.telegram.org",
       "required": true
     },
-    "SESSION": {
-      "description": "Get this value by running [python3 mysession.py] in Termux or local system.",
+    "STRING_SESSION": {
+      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/PocongUserbot » Lalu ketik #string",
       "required": true
     },
-    "MONGO_URI": {
-      "description": "This is for the database account, you can obtain it from mongodb.com.",
-      "required": true
+    "BOTLOG_CHATID": {
+      "description": "Buatlah grup telegram private lalu masukan @MissRose_bot dan jadiin admin ketik /id, masukan id grup nya disini. contoh: -1001234567xxx",
+      "value": "0",
+      "required": false
     },
-    "HEROKU_API": {
-      "description": "Your heroku api key if using heroku.",
+    "HEROKU_API_KEY": {
+      "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "Your heroku app name if using heroku.",
+      "description": "Masukan Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
       "required": false
-    },
-    "PREFIX": {
-      "description": "Command handler.",
-      "required": true,
-      "value": "."
-    },
-    "LOG_CHAT": {
-      "description": "A private group id to store your logs.",
-      "required": true
     }
   },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
   "buildpacks": [
     {
       "url": "heroku/python"

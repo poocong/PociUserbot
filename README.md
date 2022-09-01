@@ -1,5 +1,6 @@
 ![ANYA-CHAN](https://telegra.ph/file/797ca7b6ec45871ad059d.jpg)
 
+#PociUserbot
 
 Userbot ini di buat berdasarkan library [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -22,16 +23,16 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <details>
     <summary> <b>🔗 Generate String Session</b></summary><br/>
 
-<p align="center"><a href="https://telegram.dog/stringpocongbot?start"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
+<p align="center"><a href="https://t.me/Stringpocongbot"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
 
 </details>
 
 <details>
-    <summary> <b>🔗 Deploy Poci Userbot</b></summary><br/>
+    <summary> <b>🔗 Deploy Pocong Userbot</b></summary><br/>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/poocong/PociUserbot/tree/master"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
+<p align="center"><a href="https://userbotindo.tech"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=cG9vY29uZy9Qb2NpVXNlcmJvdCBtYXN0ZXI"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Bot%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=cG9vY29uZy9Qb2NvbmdVc2VyYm90IG1haW4"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Bot%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
 </details>
 
@@ -49,7 +50,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 - [Pyrogram](https://github.com/pyrogram/pyrogram) - base
 - [Toni](https://github.com/Toni880) - Prime
 - [Atka](https://github.com/jokokendi) - Ice-Userbot
-- [Poocong](https://github.com/poocong) - PocongUserbot
+- [KYY](https://github.com/poocong) - PocongUserbot
 - [ZectUserBot](https://github.com/SHRE-YANSH)
 - [TeamYukki](https://github.com/TeamYukki/YukkiMusicBot) - YukkiMusicBot
 - [TheHamkerCat](https://github.com/TheHamkerCat/WilliamButcherBot) - WilliamButcherBot
@@ -59,5 +60,4 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 </details>
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/poocong/PociUserbot/blob/PociUserbot/LICENSE) - Version 1.d, July 2022
-
+Licensed under [Raphielscape Public License](https://github.com/poocong/PociUserbot/blob/PociUserbot/LICENSE) - Version 1.d, February 2020

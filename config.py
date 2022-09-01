@@ -1,20 +1,49 @@
-import os
-from base64 import b64decode
-from dotenv import load_dotenv
-load_dotenv()
+# Credits: @mrismanaziz
+# Copyright (C) 2022 Pyro-ManUserbot
+#
+# This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
+# PLease read the GNU Affero General Public License in
+# <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
+#
+# reC0de @pocongonlen
 
-API_HASH = os.getenv("API_HASH")
-API_ID = int(os.getenv("API_ID"))
-CHANNEL = os.getenv("CHANNEL", "pocongonlen")
-GROUP = os.getenv("GROUP", "PocongUserbot")
-MONGO_URI = os.getenv("MONGO_URI")
-SESSION = os.getenv("SESSION")
-PREFIX = os.getenv("PREFIX", ".")
-ALIVE_LOGO = os.getenv("ALIVE_LOGO", "https://telegra.ph/file/9375630e45f16fea531bf.jpg")
-LOG_CHAT = int(os.getenv("LOG_CHAT", "0"))
-HEROKU_API = os.getenv("HEROKU_API", None)
-HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME", None)
-GIT_TOKEN = os.getenv("GIT_TOKEN", "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")
-PM_LOGO = os.getenv("PM_LOGO", "https://telegra.ph/file/9375630e45f16fea531bf.jpg")
-BLACKLIST_GCAST = {int(x) for x in os.getenv
-                  ("BLACKLIST_GCAST", "").split()}
+from base64 import b64decode
+from os import getenv
+
+from dotenv import load_dotenv
+
+load_dotenv("config.env")
+
+
+API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", ""))
+BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
+if not BLACKLIST_CHAT:
+    BLACKLIST_CHAT = [-1001473548283]
+BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
+BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
+BOT_VER = "0.2.0@main"
+BRANCH = "main"
+CHANNEL = getenv("CHANNEL", "PocongProject")
+CMD_HANDLER = getenv("CMD_HANDLER", ".")
+DB_URL = getenv("DATABASE_URL", "")
+GIT_TOKEN = getenv(
+    "GIT_TOKEN",
+    b64decode("Z2hwX2NRZmpTaHFrd2MyMUU5QldmNXRHSVZ2dlVKc3VqYjBDT2RwMQ==").decode(
+        "utf-8"
+    ),
+)
+GROUP = getenv("GROUP", "PocongUserbot")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
+REPO_URL = getenv(
+    "REPO_URL",
+    b64decode("aHR0cHM6Ly9naXRodWIuY29tL0NoaXhhdG8vUG9jaVVzZXJib3Q==").decode("utf-8"),
+)
+STRING_SESSION = getenv("STRING_SESSION", "")
+STRING_SESSION2 = getenv("STRING_SESSION2", "")
+STRING_SESSION3 = getenv("STRING_SESSION3", "")
+STRING_SESSION4 = getenv("STRING_SESSION4", "")
+STRING_SESSION5 = getenv("STRING_SESSION5", "")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
