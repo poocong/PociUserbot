@@ -48,6 +48,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 #### Thanks To [Everyone](https://github.com/poocong/PociUserbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 - [Pyrogram](https://github.com/pyrogram/pyrogram) - base
+- [mrismanaziz](https://github.com/mrismanaziz/PyroMan-Userbot) - PyroMan-Userbot
 - [Toni](https://github.com/Toni880) - Prime
 - [Atka](https://github.com/jokokendi) - Ice-Userbot
 - [KYY](https://github.com/poocong) - PocongUserbot
@@ -55,7 +56,6 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 - [TeamYukki](https://github.com/TeamYukki/YukkiMusicBot) - YukkiMusicBot
 - [TheHamkerCat](https://github.com/TheHamkerCat/WilliamButcherBot) - WilliamButcherBot
 - [Xyren](https://github.com/Xyren-64bit)
-- [mrismanaziz](https://github.com/mrismanaziz/PyroMan-Userbot) - PyroMan-Userbot
 
 </details>
 
