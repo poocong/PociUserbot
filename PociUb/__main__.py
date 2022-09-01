@@ -12,7 +12,7 @@ from uvloop import install
 
 from config import BOT_VER, CMD_HANDLER
 from PociUb import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
-from PociUb.helpers.misc import create_botlog, heroku
+from PociUb.helpers.misc import create_botlog, git, heroku
 
 MSG_ON = """
 🔥 **PociUserbot Berhasil Di Aktifkan**
