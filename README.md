@@ -1,6 +1,5 @@
-![ANYA-CHAN](https://telegra.ph/file/797ca7b6ec45871ad059d.jpg)
+![ANYA-CHAN](https://telegra.ph//file/b4bde9ae0d887e864de7a.jpg)
 
-#PociUserbot
 
 Userbot ini di buat berdasarkan library [Pyrogram](https://github.com/pyrogram/pyrogram)
 
