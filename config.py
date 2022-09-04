@@ -27,20 +27,20 @@ BRANCH = "main"
 CHANNEL = getenv("CHANNEL", "PocongProject")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
-_GIT_TOKEN = getenv(
+GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    None
+    b64decode("Z2hwXzdkMXFwRlVyS3djc2E4NlRacG5ndDE1QWRsc3VreDNPYnVHRg==").decode(
+        "utf-8"
+    ),
 )
-GIT_TOKEN=b64decode(_GIT_TOKEN).decode("utf-8")
 GROUP = getenv("GROUP", "PocongUserbot")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
-_REPO_URL = getenv(
+REPO_URL = getenv(
     "REPO_URL",
-    None,
+    b64decode("aHR0cHM6Ly9naXRodWIuY29tL0NoaXhhdG8vUG9jaVVzZXJib3Q==").decode("utf-8"),
 )
-REPO_URL=b64decode(_REPO_URL).decode("utf-8")
 STRING_SESSION = getenv("STRING_SESSION", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
