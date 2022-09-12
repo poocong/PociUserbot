@@ -1,4 +1,4 @@
-![ANYA-CHAN](https://telegra.ph//file/afb81c2acb21ff838a940.jpg)
+![ANYA-CHAN](https://telegra.ph//file/b4bde9ae0d887e864de7a.jpg)
 
 
 ### Disclaimer
