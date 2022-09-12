@@ -1,4 +1,4 @@
-![ANYA-CHAN](https://telegra.ph//file/b4bde9ae0d887e864de7a.jpg)
+![ANYA-CHAN](https://telegra.ph//file/afb81c2acb21ff838a940.jpg)
 
 
 ### Disclaimer
@@ -11,17 +11,17 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 ```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966">
 
 <details>
-    <summary> <b>🔗 Generate String Session</b></summary><br/>
+    <summary> <b>🤖 Generate String Session</b></summary><br/>
 
 <p align="center"><a href="https://t.me/Stringpocongbot"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
 
 </details>
 
 <details>
-    <summary> <b>🔗 Deploy PociUserbot</b></summary><br/>
+    <summary> <b>🔥 Deploy PociUserbot</b></summary><br/>
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/poocong/PociUserbot"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
@@ -29,7 +29,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 </details>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### Update & Support
@@ -40,15 +40,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
     <summary>&#127942 <b>Credits</b></summary><br/>
 
 #### Thanks To [Everyone](https://github.com/poocong/PociUserbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
-- [Pyrogram](https://github.com/pyrogram/pyrogram) - base
-- [mrismanaziz](https://github.com/mrismanaziz/PyroMan-Userbot) - PyroMan-Userbot
-- [Toni](https://github.com/Toni880) - Prime
-- [Atka](https://github.com/jokokendi) - Ice-Userbot
-- [Kyy](https://github.com/poocong) - PocongUserbot
-- [ZectUserBot](https://github.com/SHRE-YANSH)
+- [KyyNoCounter](https://github.com/poocong) -  Pocong  Userbot
+- [mrismanaziz](https://github.com/mrismanaziz/PyroManUserbot) - PyroManUserbot
 - [TeamYukki](https://github.com/TeamYukki/YukkiMusicBot) - YukkiMusicBot
-- [TheHamkerCat](https://github.com/TheHamkerCat/WilliamButcherBot) - WilliamButcherBot
-- [Xyren](https://github.com/Xyren-64bit)
+- [ITZ-ZAID](https://github.com/ITZ-ZAID) - Zaid - Userbot
+- [Toni880](https://github.com/Toni880) - PrimeUserbot
+- [Tofikdn](https://github.com/tofikdn) - Tede
+
 
 </details>
 
