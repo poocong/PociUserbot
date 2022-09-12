@@ -7,15 +7,11 @@
 #
 # ReC0de @pocongonlen
 
-import importlib
-
 from pyrogram import idle
 from uvloop import install
 
 from config import BOT_VER, CMD_HANDLER
 from PociUb import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
-from PociUb.helpers.misc import create_botlog, heroku
-from PociUb.modules import ALL_MODULES
 
 MSG_ON = """
 ‼️ **PociUserbot Berhasil Di Aktifkan**
@@ -27,8 +23,6 @@ MSG_ON = """
 
 
 async def main():
-    for all_module in ALL_MODULES:
-        importlib.import_module(f"PociUb.modules.{all_module}")
     for bot in bots:
         try:
             await bot.start()
@@ -57,5 +51,6 @@ async def main():
 if __name__ == "__main__":
     LOGGER("PociUb").info("Starting PociUserBot")
     install()
+    git()
     heroku()
     LOOP.run_until_complete(main())
