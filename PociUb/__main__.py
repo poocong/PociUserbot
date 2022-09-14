@@ -37,7 +37,7 @@ async def main():
             except BaseException:
                 pass
             LOGGER("PociUb").info(
-                f"Logged in as {bot.me.first_name} | [ {bot.me.id} ]"
+                f"Login sebagai {bot.me.first_name} | [ {bot.me.id} ]"
             )
         except Exception as a:
             LOGGER("main").warning(a)
