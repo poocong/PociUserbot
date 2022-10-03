@@ -24,12 +24,12 @@ BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "0.2.0@main"
 BRANCH = "main"
-CHANNEL = getenv("CHANNEL", "PocongProject")
+CHANNEL = getenv("CHANNEL", "Pocongonlen")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwXzdkMXFwRlVyS3djc2E4NlRacG5ndDE1QWRsc3VreDNPYnVHRg==").decode(
+    b64decode("Z2hwXzRyN05oQ3lTakpkZnBQQzhVUERZWmJHdmN4NzhSYTNqNGhUYQ==").decode(
         "utf-8"
     ),
 )
