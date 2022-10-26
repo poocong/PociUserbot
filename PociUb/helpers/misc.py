@@ -69,9 +69,9 @@ def git():
         UPSTREAM_REPO = REPO_URL
     try:
         repo = Repo()
-        LOGGER("PociUb").info(f"Git Client Found")
+        LOGGER("Penggik").info(f"Git Client Found")
     except GitCommandError:
-        LOGGER("PociUb").info(f"Invalid Git Command")
+        LOGGER("Penggik").info(f"Invalid Git Command")
     except InvalidGitRepositoryError:
         repo = Repo.init()
         if "origin" in repo.remotes:
@@ -96,7 +96,7 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -U -r requirements.txt")
-        LOGGER("PociUb").info("Fetched Latest Updates")
+        LOGGER("Penggik").info("Fetched Latest Updates")
 
 
 def is_heroku():
@@ -110,7 +110,7 @@ def heroku():
             try:
                 Heroku = heroku3.from_key(HEROKU_API_KEY)
                 HAPP = Heroku.app(HEROKU_APP_NAME)
-                LOGGER("PociUb").info(f"Heroku App Configured")
+                LOGGER("Penggik").info(f"Heroku App Configured")
             except BaseException as e:
                 LOGGER("Heroku").error(e)
                 LOGGER("Heroku").info(
@@ -125,10 +125,10 @@ async def in_heroku():
 async def create_botlog(client):
     if HAPP is None:
         return
-    LOGGER("PociUb").info(
+    LOGGER("Penggik").info(
         "TUNGGU SEBENTAR. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK ANDA"
     )
-    desc = "Group Log untuk PociUserBot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n✨ Powered By ~ @pocongonlen ✨"
+    desc = "Group Log untuk Penggik.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n✨ Powered By ~ @pocongonlen ✨"
     try:
         gruplog = await client.create_supergroup("Log UserBot", desc)
         if await in_heroku():
