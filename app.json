@@ -1,6 +1,6 @@
 {
-  "name": "PociUserbot",
-  "description": "[PociUserbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
+  "name": "Penggik",
+  "description": "[Penggik] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
