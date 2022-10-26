@@ -106,7 +106,7 @@ bot1 = (
         api_id=API_ID,
         api_hash=API_HASH,
         session_string=STRING_SESSION,
-        plugins=dict(root="PociUb/modules"),
+        plugins=dict(root="Penggik/modules"),
     )
     if STRING_SESSION
     else None
@@ -118,7 +118,7 @@ bot2 = (
         api_id=API_ID,
         api_hash=API_HASH,
         session_string=STRING_SESSION2,
-        plugins=dict(root="PociUb/modules"),
+        plugins=dict(root="Penggik/modules"),
     )
     if STRING_SESSION2
     else None
@@ -130,7 +130,7 @@ bot3 = (
         api_id=API_ID,
         api_hash=API_HASH,
         session_string=STRING_SESSION3,
-        plugins=dict(root="PociUb/modules"),
+        plugins=dict(root="Penggik/modules"),
     )
     if STRING_SESSION3
     else None
@@ -142,7 +142,7 @@ bot4 = (
         api_id=API_ID,
         api_hash=API_HASH,
         session_string=STRING_SESSION4,
-        plugins=dict(root="PociUb/modules"),
+        plugins=dict(root="Penggik/modules"),
     )
     if STRING_SESSION4
     else None
@@ -154,7 +154,7 @@ bot5 = (
         api_id=API_ID,
         api_hash=API_HASH,
         session_string=STRING_SESSION5,
-        plugins=dict(root="PociUb/modules"),
+        plugins=dict(root="Penggik/modules"),
     )
     if STRING_SESSION5
     else None
