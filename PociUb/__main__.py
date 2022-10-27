@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
-# ReC0de @pocongonlen
+# ReC0de @penggiki
 
 from pyrogram import idle
 from uvloop import install
@@ -28,9 +28,9 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("pocongonlen")
-            await bot.join_chat("PocongUserbot")
-            await bot.join_chat("Poocongonlen")
+            await bot.join_chat("penggiki")
+            await bot.join_chat("penggiki")
+            await bot.join_chat("penggiki")
             try:
                 await bot.send_message(
                     BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER)
