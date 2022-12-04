@@ -22,7 +22,7 @@ if not BLACKLIST_CHAT:
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "0.2.0@main"
-BRANCH = "main"
+BRANCH = getenv("BRANCH", "main")
 CHANNEL = getenv("CHANNEL", "PocongOnlen")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
