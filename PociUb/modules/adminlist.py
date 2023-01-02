@@ -83,14 +83,20 @@ async def adminlist(client: Client, message: Message):
 
 @Client.on_message(filters.command(["kickdel", "zombies"], cmd) & filters.me)
 async def kickdel_cmd(client: Client, message: Message):
-    Man = await edit_or_reply(message, "<b>Kicking deleted accounts...</b>")
-    # noinspection PyTypeChecker
-    values = [
-        await message.chat.ban_member(user.user.id, int(time()) + 31)
-        for member in message.chat.get_members()
-        if member.user.is_deleted
-    ]
-    await Man.edit(f"<b>Successfully kicked {len(values)} deleted account(s)</b>")
+    await message.edit("Mengeluarkan akun terhapus. . . .")
+    gagal = 0
+    berhasil = 0
+    chat = message.chat.id
+    async for tai in app.get_chat_members(chat):
+        if tai.user.is_deleted:
+            try:
+                await app.ban_chat_member(chat, tai.user.id)
+                await app.unban_chat_member(chat, tai.user.id)
+                gagal += 1
+            except ChatAdminRequired:
+                berhasil += 1
+                      
+    return await message.edit(f"**MEMBERSIHKAN AKUN TERHAPUS**\n**Berhasil :** {gagal} Akun\n**Gagal :** {berhasil} Akun")
 
 
 @Client.on_message(
