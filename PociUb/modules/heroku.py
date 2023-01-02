@@ -173,15 +173,15 @@ async def usage_heroku(client: Client, message: Message):
     AppMinutes = math.floor(AppQuotaUsed % 60)
     await asyncio.sleep(1.5)
     text = f"""
- **Informasi Dyno Heroku :**
+ **Dyno Usage :**
 
- ❏ **Penggunaan Dyno** `{HEROKU_APP_NAME}` :
-       `{AppHours}`**Jam**  `{AppMinutes}`**Menit |**  [`{AppPercentage}`**%**]
+ -> **Dyno usage for** `{HEROKU_APP_NAME}` :
+       `{AppHours}`**h**  `{AppMinutes}`**m |**  [`{AppPercentage}`**%**]
        
- ❏ **Sisa kuota dyno bulan ini** :
-       `{hours}`**Jam**  `{minutes}`**Menit |**  [`{percentage}`**%**]
+ -> **Dyno hours quota remaining this month** :
+       `{hours}`**h**  `{minutes}`**m |**  [`{percentage}`**%**]
 
-**Sisa Dyno Heroku** `{day}` **Hari Lagi**"""
+**remaining dyno heroku** `{day}` **days left**"""
     return await dyno.edit(text)
 
 
@@ -189,12 +189,12 @@ async def usage_heroku(client: Client, message: Message):
 async def usange_heroku(client: Client, message: Message):
     xx = await edit_or_reply(message, "`Processing...`")
     await xx.edit(
-        " **Informasi Dyno Heroku :**"
-        f" ❏ **Penggunaan Dyno** `{HEROKU_APP_NAME}` :\n"
+        " **Dyno Usage :**"
+        f" -> **Penggunaan Dyno** `{HEROKU_APP_NAME}` :\n"
         f"       `0`**Jam**  `0`**Menit**  "
         f"**|**  [`0`**%**]"
-        "\n◖════════════════════◗\n"
-        " ❏ **Sisa kuota dyno bulan ini** :\n"
+        "\n"
+        " -> **Sisa kuota dyno bulan ini** :\n"
         f"       `1000`**Jam**  `0`**Menit**  "
         f"**|**  [`100`**%**]"
     )
