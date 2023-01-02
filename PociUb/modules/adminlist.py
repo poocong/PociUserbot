@@ -87,11 +87,11 @@ async def kickdel_cmd(client: Client, message: Message):
     gagal = 0
     berhasil = 0
     chat = message.chat.id
-    async for tai in app.get_chat_members(chat):
+    async for tai in client.get_chat_members(chat):
         if tai.user.is_deleted:
             try:
-                await app.ban_chat_member(chat, tai.user.id)
-                await app.unban_chat_member(chat, tai.user.id)
+                await client.ban_chat_member(chat, tai.user.id)
+                await client.unban_chat_member(chat, tai.user.id)
                 gagal += 1
             except ChatAdminRequired:
                 berhasil += 1
