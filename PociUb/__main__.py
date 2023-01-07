@@ -34,8 +34,6 @@ async def main():
             await bot.start()
             bot.me = await bot.get_me()
             await bot.join_chat("pocongonlen")
-            await bot.join_chat("PocongUserbot")
-            await bot.join_chat("Poocongonlen")
             try:
                 await bot.send_message(
                     BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER)
