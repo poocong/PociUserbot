@@ -16,7 +16,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <details>
     <summary> <b>🤖 Generate String Session</b></summary><br/>
 
-<p align="center"><a href="https://t.me/Stringpocongbot"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
+<p align="center"><a href="https://t.me/genStr_Bot"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
 
 </details>
 
@@ -24,8 +24,6 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
     <summary> <b>🔥 Deploy PociUserbot</b></summary><br/>
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/poocong/PociUserbot"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
-
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=cG9vY29uZy9Qb2NpVXNlcmJvdCBtYXN0ZXI"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Bot%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
 </details>
 
